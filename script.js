@@ -204,7 +204,7 @@ function drawText() {
         if (window.innerWidth < 600) {
             drawTextWithLineBreaks(["Will you", "Be my valentines?"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
         } else {
-            context.fillText("So will you be my valentines?", canvas.width/2, (canvas.height/2 + 50));
+            context.fillText("Will you Be my valentines?", canvas.width/2, (canvas.height/2 + 50));
         }
 
         secondOpacity = secondOpacity + 0.01;
@@ -212,7 +212,7 @@ function drawText() {
 
     if(frameNumber >= 3000 && frameNumber < 99999){
         context.fillStyle = `rgba(45, 45, 255, ${thirdOpacity})`;
-        context.fillText("Happy Valentine's Day <3", canvas.width/2, (canvas.height/2 + 120));
+        context.fillText("Happy Valentine's Day uwuwuwu", canvas.width/2, (canvas.height/2 + 120));
         thirdOpacity = thirdOpacity + 0.01;
 
         button.style.display = "block";
